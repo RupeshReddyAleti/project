@@ -108,7 +108,7 @@ public class customer {
 	    	System.out.println("Enter the mobile number :-");
 			String a22=sc.next();
 			
-			updateQuery="update customers set cust_name= '"+a22+"' where cust_id= '"+a2+"'";
+			updateQuery="update customers set cust_mobile= '"+a22+"' where cust_id= '"+a2+"'";
 			int res7=st7.executeUpdate(updateQuery);
 			
 			if(res7==0)
